@@ -82,7 +82,8 @@ def eliminar_libro():
         title_search = input("Inserte título a buscar: ")
         for li in libros:
             if title_search.lower() == li["title"].lower():
-                
+                libros.remove(li)
+                print("Libro removido! :3")
                 return
             
         print("Libro no existe!")
