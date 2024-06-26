@@ -13,15 +13,16 @@ while True:
     opc = int(input("Ingrese opción: "))
     os.system('cls')
     if opc==1:
-        pass
+        agregar_libro()
     elif opc==2:
-        pass
+        mostrar_libros()
     elif opc==3:
-        pass
+        buscar_libro()
+        
     elif opc==4:
-        pass
+        modificar_libro()
     elif opc==5:
-        pass
+        exportar_libro()
     else:
         pass
     time.sleep(3)
