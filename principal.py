@@ -6,7 +6,7 @@ while True:
     print("MENÚ BIBLIOTECA")
     print("1. Agregar libro")
     print("2. Mostrar libros")
-    print("3. Buscar libro por títul")
+    print("3. Buscar libro por título")
     print("4. Modificar libro")
     print("5. Exportar a JSON")
     print("6. eliminar libro")
