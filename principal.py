@@ -8,20 +8,23 @@ while True:
     print("2. Mostrar libros")
     print("3. Buscar libro por títul")
     print("4. Modificar libro")
-    print("5. Exportar a JSON")
-    print("6. Salir")
+    print("5. Eliminar libro:")
+    print("6. Exportar a JSON")
+    print("7. Salir")
     opc = int(input("Ingrese opción: "))
     os.system('cls')
     if opc==1:
-        pass
+        agregar_libro()
     elif opc==2:
-        pass
+        mostrar_libros()
     elif opc==3:
-        pass
+        buscar_libro()
     elif opc==4:
-        pass
+        modificar_libro()
     elif opc==5:
-        pass
+        eliminar_libro()
+    elif opc==6:
+        exportar_libro()
     else:
-        pass
+        salir()
     time.sleep(3)
